@@ -27,6 +27,7 @@ class CommentCrudController extends AbstractCrudController
             IdField::new('id')->hideOnForm(),
             TextField::new('author'),
             TextField::new('photoFilename'),
+            TextField::new('state')->hideOnForm(),
             TextField::new('text'),
             ImageField::new('photoFilename')->setBasePath('/uploads/photos')->setLabel('Photo')->hideOnForm(),
         ];
