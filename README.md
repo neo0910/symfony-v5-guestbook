@@ -11,3 +11,9 @@ Just a Symfony 5 investigation
 `symfony console doctrine:fixtures:load`
 
 `symfony server:start -d`
+
+Useful commands
+
+`symfony console messenger:consume async -vv` - async messages consume watcher
+
+`symfony server:log`
